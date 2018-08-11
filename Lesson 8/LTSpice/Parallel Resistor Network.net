@@ -1,8 +1,0 @@
-* /Users/league/Desktop/Level-2/Lesson 8/LTSpice/Parallel Resistor Network.asc
-V1 C 0 9V
-R1 C 0 100K tol=1 pwr=0.1
-R2 C 0 {Rt}
-.tran 0 1ms 0ms 1us startup
-.step param Rt 80K 480K 80K
-.backanno
-.end
